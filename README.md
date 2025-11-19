@@ -17,7 +17,7 @@ Puppet installs and manages the packages needed for:
 The manifest also ensures that the Apache and MariaDB services are running and enabled after reboot.
 Essentially instead of doing it manually, now it is automated with Puppet.
 ## Purpose
-This repository demonstrates how Puppet can be used to automate:
+Essentially this repository demonstrates how Puppet can be used to automate:
 - User management
 - Group management
 - Package installation
