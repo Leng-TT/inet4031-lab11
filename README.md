@@ -14,6 +14,7 @@ Puppet installs and manages the packages needed for:
 - PHP and required PHP modules
 - MariaDB (MySQL server)
 - A PHP test page (phpinfo.php) copied into /var/www/html/
+
 The manifest also ensures that the Apache and MariaDB services are running and enabled after reboot.
 Essentially instead of doing it manually, now it is automated with Puppet.
 ## Purpose
@@ -24,5 +25,6 @@ Essentially this repository demonstrates how Puppet can be used to automate:
 - Service configuration
 - Web server setup
 - Database server setup
+
 By treating infrastructure as code, configuration becomes consistent, repeatable, and version-controlled.
 
